@@ -1,0 +1,24 @@
+services:
+  threejs-app:
+    image: scroll-animation
+    container_name: scroll-animation
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    ports:
+      - "5173:5173"
+
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+    networks:
+      - scroll-animation-net
+
+    restart: unless-stopped
+
+
+networks:
+  scroll-animation-net:
+    driver: bridge
