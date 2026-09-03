@@ -1,6 +1,5 @@
-<!-- # Three_JS
-
-My personal **Three.js learning journey**.
+## Three_JS
+<!--My personal **Three.js learning journey**.
 
 This repository contains my notes, exercises, experiments, and projects while learning **3D development for the web with Three.js and WebGL** through [Three.js Journey](https://threejs-journey.com/).
 
